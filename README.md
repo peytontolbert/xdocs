@@ -3,9 +3,6 @@
 `xdocs` is a small **executable documentation** runner: Markdown fenced code blocks marked `xdocs` are executed and verified like tests (snapshots/assertions), locally and in CI.
 
 ## Install (from GitHub)
-
-Once you push this repo to GitHub, other projects can install it directly:
-
 ```bash
 pip install "xdocs @ git+https://github.com/peytontolbert/xdocs.git"
 ```
@@ -38,8 +35,8 @@ XDOCS_ACCEPT=1 pytest
 From the root of the target repo:
 
 ```bash
-pip install "xdocs @ git+https://github.com/YOUR_ORG/xdocs.git"
-xdocs init --ci-install "xdocs @ git+https://github.com/YOUR_ORG/xdocs.git"
+pip install "xdocs @ git+https://github.com/peytontolbert/xdocs.git"
+xdocs init --ci-install "xdocs @ git+https://github.com/peytontolbert/xdocs.git"
 ```
 
 
