@@ -7,7 +7,7 @@
 Once you push this repo to GitHub, other projects can install it directly:
 
 ```bash
-pip install "xdocs @ git+https://github.com/YOUR_ORG/xdocs.git"
+pip install "xdocs @ git+https://github.com/peytontolbert/xdocs.git"
 ```
 
 ## Authoring
